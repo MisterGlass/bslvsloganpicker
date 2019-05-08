@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7470e6929a846b683369a460924cb63f",
+    "revision": "4776da6dcd4891e5d1d306a1e0119669",
     "url": "/bslvsloganpicker/index.html"
   },
   {
-    "revision": "d9a1aa8598e6e451414d",
+    "revision": "273a34e196b9c1669c33",
     "url": "/bslvsloganpicker/static/css/main.7c0ead62.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bslvsloganpicker/static/js/2.4e629e7f.chunk.js"
   },
   {
-    "revision": "d9a1aa8598e6e451414d",
-    "url": "/bslvsloganpicker/static/js/main.ca078928.chunk.js"
+    "revision": "273a34e196b9c1669c33",
+    "url": "/bslvsloganpicker/static/js/main.7bb88ec7.chunk.js"
   },
   {
     "revision": "031c43d12b260618629c",
