@@ -23,17 +23,26 @@ code {
 
 .favorites {
   padding: 5px;
-  padding-top: 0px;
   width: 24%;
   float: right;
 }
 
 .slogan {
   background-color: #D3D3D3;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .slogan:nth-child(even) {
   background-color: #C0C0C0;
+}
+
+.slogan.favorite {
+  background-color: #d8d7b3;
+}
+
+.submitbtn {
+  background-color: #ef8f94;
 }
 
 p {
