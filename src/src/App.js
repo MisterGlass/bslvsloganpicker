@@ -134,6 +134,7 @@ class Main extends React.Component {
     }
 
     renderSlogan(key, slogan) {
+        if(slogan.favorited) {console.log('passing true')};
         return (
             <Slogan 
                 key={key}
