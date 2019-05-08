@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a69b97f1fd07715ffb22e50cf67898e",
+    "revision": "4e7eab2ea4fe95999280db8a9bbfb18f",
     "url": "/bslvsloganpicker/index.html"
   },
   {
