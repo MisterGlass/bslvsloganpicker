@@ -11,23 +11,10 @@ class Slogan extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            id: props.id,
             text: props.text,
-            favfunc: props.favslogan,
-            unfavfunc: props.unfavslogan,
             hidden: false,
-            favorited: props.favorited,
         }
-        if(props.favorited) {console.log('gotcha')};
     };
-
-    favslogan = () => {
-        this.state.favfunc();
-    }
-
-    unfavslogan = () => {
-        this.state.unfavfunc();
-    }
 
     hideslogan = () => {
         this.setState({hidden: true});
@@ -46,11 +33,11 @@ class Slogan extends React.Component {
                     </button>
                 </div>
             );
-        } else if (this.state.favorited) {
+        } else if (this.props.favorited) {
             return (
                 <div className="slogan favorite">
-                    <p>{this.state.text}</p>
-                    <button className="favbtn" onClick={this.unfavslogan}>
+                    <p>{this.props.text}</p>
+                    <button className="favbtn" onClick={this.props.unfavslogan}>
                         Unfavorite
                     </button>
                 </div>
@@ -58,8 +45,8 @@ class Slogan extends React.Component {
         } else {
             return (
                 <div className="slogan">
-                    <p>{this.state.text}</p>
-                    <button className="favbtn" onClick={this.favslogan}>
+                    <p>{this.props.text}</p>
+                    <button className="favbtn" onClick={this.props.favslogan}>
                         Favorite
                     </button>
                     <button className="hidebtn" onClick={this.hideslogan}>
@@ -134,7 +121,6 @@ class Main extends React.Component {
     }
 
     renderSlogan(key, slogan) {
-        if(slogan.favorited) {console.log('passing true')};
         return (
             <Slogan 
                 key={key}
