@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/bslvsloganpicker/precache-manifest.709d941ef255283aeb99d694244ffdb3.js"
+  "/bslvsloganpicker/precache-manifest.ff8a2bf69000ec4bc3cc0f02672c5a84.js"
 );
 
 self.addEventListener('message', (event) => {
