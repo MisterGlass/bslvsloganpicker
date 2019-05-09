@@ -144,7 +144,10 @@ class Main extends React.Component {
     }
 
     responseGoogle = (response) => {
-        if (response.profileObj.email.split('@')[1] === 'bsideslv.org') {
+        if (response.error) {
+            alert('There was an unexpected error logging in: '+response.error);
+            console.log(response);
+        } else if (response.profileObj.email.split('@')[1] === 'bsideslv.org') {
             this.setState({user: response.profileObj});
         } else {
             alert('Login unsucesful, please login with your bsideslv google account');
