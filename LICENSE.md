@@ -19,4 +19,4 @@ and you are welcome to redistribute it under certain conditions).
 This program is licensed under the Sandia Message Public License,   
 This may be abbreviated as sandia.  
 You may obtain a copy of the License(s) at  
-https://github.com/cdanis/sandia-public-license/LICENSE.md
+https://github.com/cdanis/sandia-public-license/blob/main/LICENSE.md
